@@ -172,11 +172,7 @@ namespace Marduk
             else if(type == UpdateType.Regular)
             {
                 for(int i = 0; i < regularUpdates.Length; i++)
-                {
-                    if(i > 9)
-                    {
-                        Debug.Log("What");
-                    }
+                {                    
                     if (!regularUpdates[i].valid) return i;
                 }
             }
